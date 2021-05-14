@@ -1,8 +1,7 @@
 # About
 
-pomodoro
-timer
-
+pomodoro app
+A simple timer page.
 
 # Clock
 
