@@ -2,6 +2,8 @@
 
 pomodoro app
 A simple timer page.
+Simple clock- A simple clock app using javascript.
+			
 
 # Clock
 
