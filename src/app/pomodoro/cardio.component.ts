@@ -9,10 +9,7 @@ import { Location } from '@angular/common';
 export class CardioComponent implements OnInit {
   minutes;
 
-  constructor(private _location: Location) { }
-  goBack() {
-    this._location.back();
-  }
+  constructor() { }
 
   ngOnInit() {
     let countdown;
