@@ -8,6 +8,7 @@ import { CardioComponent } from './pomodoro/cardio.component';
 import { NewversionComponent } from './newversion/newversion.component';
 import { TimesavingComponent } from './timesaving/timesaving.component';
 import { FormsModule } from '@angular/forms';
+import { TimeConverterComponent } from './time-converter/time-converter.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     ClockComponent,
     TimesavingComponent,
     NewversionComponent,
-    CardioComponent
+    CardioComponent,
+    TimeConverterComponent
   ],
   imports: [
     BrowserModule,
