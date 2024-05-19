@@ -9,6 +9,7 @@ import { NewversionComponent } from './newversion/newversion.component';
 import { TimesavingComponent } from './timesaving/timesaving.component';
 import { FormsModule } from '@angular/forms';
 import { TimeConverterComponent } from './time-converter/time-converter.component';
+import { DateFormattingComponent } from './date-formatting/date-formatting.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TimeConverterComponent } from './time-converter/time-converter.componen
     TimesavingComponent,
     NewversionComponent,
     CardioComponent,
-    TimeConverterComponent
+    TimeConverterComponent,
+    DateFormattingComponent
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,7 @@ export class NewversionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let countdown = 0; // variable to set/clear intervals
+    let countdown: any = 0; // variable to set/clear intervals
     let seconds = 1500; // seconds left on the clock
     let workTime = 25;
     let breakTime = 5;
