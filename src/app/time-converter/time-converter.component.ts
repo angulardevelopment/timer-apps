@@ -117,3 +117,8 @@ export class TimeConverterComponent implements OnInit {
 
 // ‎Miranda — Time Zone Converter, World Clock & Meeting Scheduler
 
+// https://countrycode.org/ 
+// https://www.iban.com/country-codes 
+// IST time - time zone is 10 hours, 30 minutes ahead of cst time
+// US has 4 time zones				Eastern, Central, Mountain, and Pacific Standard Time.
+
