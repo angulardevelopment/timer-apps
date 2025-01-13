@@ -121,4 +121,6 @@ export class TimeConverterComponent implements OnInit {
 // https://www.iban.com/country-codes 
 // IST time - time zone is 10 hours, 30 minutes ahead of cst time
 // US has 4 time zones				Eastern, Central, Mountain, and Pacific Standard Time.
+// https://www.epochconverter.com/
+// https://www.timeanddate.com/worldclock/
 
