@@ -8,8 +8,8 @@ describe('DateFormattingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DateFormattingComponent ]
-    })
+    imports: [DateFormattingComponent]
+})
     .compileComponents();
   });
 

@@ -8,8 +8,8 @@ describe('TimesavingComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TimesavingComponent ]
-    })
+    imports: [TimesavingComponent]
+})
     .compileComponents();
   }));
 

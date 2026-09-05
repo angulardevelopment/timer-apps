@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-cardio',
   templateUrl: './cardio.component.html',
-  styleUrls: ['./cardio.component.css']
+  styleUrls: ['./cardio.component.css'],
+  imports: [FormsModule]
 })
 export class CardioComponent implements OnInit {
   minutes;
@@ -54,7 +56,7 @@ function displayEndTime(timestamp) {
   endTime.textContent = `Be Back At ${adjustedHour}:${minutes < 10 ? '0' : ''}${minutes}`;
 }
 
-function startTimer() {
+function startTimer(this: any) {
   const seconds = parseInt(this.dataset.time);
   timer(seconds);
 }

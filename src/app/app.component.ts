@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { Router, Routes } from '@angular/router';
+import { Router, RouterLink, RouterOutlet, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  imports: [RouterOutlet, RouterLink]
 })
 export class AppComponent {
   title = 'clock';

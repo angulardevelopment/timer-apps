@@ -8,8 +8,8 @@ describe('TimeConverterComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TimeConverterComponent ]
-    })
+    imports: [TimeConverterComponent]
+})
     .compileComponents();
   });
 

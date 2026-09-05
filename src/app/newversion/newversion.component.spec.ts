@@ -8,8 +8,8 @@ describe('NewversionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NewversionComponent ]
-    })
+    imports: [NewversionComponent]
+})
     .compileComponents();
   }));
 
