@@ -21,6 +21,21 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 ### About the app
 This app includes different time apps like Pomodoro, timer, clock.
+Pomodoro Clock
+Pomodoro app:
+
+Enter a time  
+
+Start timer  
+
+Alert when the time is over  
+
+https://www.worldtimebuddy.com/
+https://www.timeanddate.com/worldclock/
+
+utc time
+cst time
+us all timezones
 
 ## Subscribe and Stay Updated!
 
